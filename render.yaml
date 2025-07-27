@@ -1,0 +1,9 @@
+services"
+   - type: worker
+     name: rss-feed-worker
+     runtime: python
+     buildCommand: pip install -r requirements.txt
+     startCommand: python google.py
+     autoDeploy: true
+     plan: free
+     schdule: "*/4 * * * *"
