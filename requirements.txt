@@ -3,3 +3,5 @@ requests
 scikit-learn
 python-dateutil
 pyperclip
+pytrends
+
